@@ -101,24 +101,6 @@ Execute a aplicação:
 Copy
 ./mvnw spring-boot:run
 ```
-
-##📦 Estrutura do Projeto
-Copy
-src/
-├── main/
-│   ├── java/
-│   │   └── br/com/petshop/
-│   │       ├── controller/       # DonoController, PetController
-│   │       ├── entidades/        # Dono, Pet (entidades)
-|   |       ├── services/         # Servicos, logica para controller
-│   │       ├── repository/       # DonoRepository, PetRepository
-│   │       └── PetshopApplication.java
-│   └── resources/
-│       └── application.properties # Config do MongoDB
-🐛 Problemas Comuns
-Pet não é encontrado na busca (/pet/getNome)
-Verifique se o nome está exatamente igual (incluindo maiúsculas).
-
 ##Confira no MongoDB Shell:
 
 ```bash
